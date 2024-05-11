@@ -24,10 +24,16 @@ h1 {
 }
 
 #input-field {
-    height: 150px;
+    height: 100px;
     width: 150px;
     border: 1px solid #ffff;
     margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input-el {
+    font-size: 80px;
 }
 
 button {
@@ -36,4 +42,18 @@ button {
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
+    font-family: bold;
+}
+
+#length-el {
+    width: 70%;
+    height: 150px;
+    border: 1px solid white;
+}
+
+.metric-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
