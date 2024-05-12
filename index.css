@@ -26,7 +26,7 @@ h1 {
 #input-el {
     font-size: 80px;
     height: 100px;
-    width: 150px;
+    width: 230px;
     border: 1px solid white;
     color: white;
     font-weight: bolder;
@@ -34,6 +34,7 @@ h1 {
     text-align: center;
     border-radius: 5px;
     background: #5B21B6;
+    padding: 20px;
 }
 
 
@@ -63,3 +64,6 @@ button {
     margin-top: 30px;
 }
 
+h2 {
+    color: #C4B5FD;
+}
