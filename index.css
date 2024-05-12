@@ -23,19 +23,19 @@ h1 {
     padding: 0;
 }
 
-#input-field {
-    height: 100px;
-    width: 150px;
-    border: 1px solid #ffff;
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-}
 #input-el {
     font-size: 80px;
+    height: 100px;
+    width: 150px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bolder;
+    margin: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background: #5B21B6;
 }
+
 
 button {
     background: #ffff;
@@ -43,7 +43,7 @@ button {
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
-    font-family: bold;
+    font-weight: bold;
     width: 150px;
 }
 
